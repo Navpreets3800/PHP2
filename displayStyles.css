@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+h2 {
+    color: #333;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.update, .delete {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px; 
+}
+
+.update {
+    background-color: rgb(5, 75, 133);
+}
+
+.update a, .delete a {
+    color: white;
+    text-decoration: none;
+}
+
+.delete {
+    background-color: rgb(172, 56, 43);
+}
+
+.update:hover {
+    background-color: #1b026d;
+}
+
+.delete:hover {
+    background-color: rgb(93, 4, 2);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px; /* Adjusted margin-top for container */
+    flex-grow: 1; /* Allow the container to grow to fill the available space */
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(98, 145, 231);
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
